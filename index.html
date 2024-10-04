@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Machine Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./images/Logo.png" alt="Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <a href="#" class="login-btn">Login</a>
+          <a href="#" class="register-btn">Register</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <img src="./images/hero image.jpg" alt="Hero Image" class="hero-bg" />
+      <div class="hero-content">
+        <h1>The largest community of photo enthusiasts</h1>
+        <a href="#" class="cta-btn">Join Today</a>
+      </div>
+    </section>
+
+<!-- features section -->
+    <section class="features">
+      <div class="features-heading">
+        <h1>Snap photos and share like never before</h1>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h2>Sed ut perspiciatis</h2>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro quisquam est.
+          </p>
+          <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+        <div class="feature-item">
+          <h2>Lorem ipsum dolor</h2>
+          <p>
+            Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi.
+          </p>
+          <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+        <div class="feature-item">
+          <h2>Nemo enim ipsam</h2>
+          <p>
+            Consequuntur magni dolores eos qui ratione voluptatem sequi
+            nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+            amet, consectetur, adipisci velit, sed quia non numquam.
+          </p>
+          <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+        <div class="feature-item">
+          <h2>Tempor incididunt</h2>
+          <p>
+            Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora.
+          </p>
+          <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Third Section (Newly added) -->
+    <section class="section-container">
+      <h2 class="section-title">
+        Have you ever posted any photo on social media?
+      </h2>
+      <p class="section-subtitle">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore
+      </p>
+      <div class="content-container">
+        <div class="text-content">
+          <h3>Sed ut perspiciatis</h3>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia consequuntur.
+          </p>
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="image-content">
+          <img
+            src="./images/sean-pollock-PhYq704ffdA-unsplash 1.png"
+            alt="Skyscrapers"
+          />
+        </div>
+      </div>
+    </section>
+<!-- cards container -->
+    <section class="section-container">
+      <h2 class="section-title">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      </h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="./images/lorem 1.jpg" alt="Image 1" />
+          <h3>Sed ut perspiciatis</h3>
+          <p>
+            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+            fugit, sed quia.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/lorem 2.jpg" alt="Image 2" />
+          <h3>Lorem ipsum dolor</h3>
+          <p>
+            Amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./images/lorem 3.jpg" alt="Image 3" />
+          <h3>Nemo enim ipsam</h3>
+          <p>
+            Consequuntur magni dolores eos qui ratione voluptatem sequi
+            nesciunt.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- sign up -->
+    <section class="free-trial">
+      <div class="trial-content">
+        <h2>Ready to take a free trial?</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <div class="signup-form">
+        <h3>Sign up for a free account</h3>
+        <form id="signupForm">
+          <div class="input-container">
+            <input
+              type="text"
+              id="firstName"
+              name="first-name"
+              placeholder="First name"
+              required
+            />
+            <small id="firstNameError" class="error-message"></small>
+          </div>
+          <div class="input-container">
+            <input
+              type="text"
+              id="lastName"
+              name="last-name"
+              placeholder="Last name"
+              required
+            />
+            <small id="lastNameError" class="error-message"></small>
+          </div>
+          <div class="input-container">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <small id="emailError" class="error-message"></small>
+          </div>
+          <div class="input-container">
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="phone"
+              placeholder="Phone Number"
+              required
+            />
+            <small id="phoneError" class="error-message"></small>
+          </div>
+          <div class="input-container">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Create password"
+              required
+            />
+            <small id="passwordError" class="error-message"></small>
+          </div>
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-links-logo">
+          <div class="footer-logo">
+            <img src="./images/Logo.png" alt="Logo" class="logo-img" />
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Mobile app</h4>
+              <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Live share</a></li>
+                <li><a href="#">Video record</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Community</h4>
+              <ul>
+                <li><a href="#">Featured artists</a></li>
+                <li><a href="#">The Portal</a></li>
+                <li><a href="#">Live events</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-buttons">
+            <button class="register-btn">Register</button>
+            <button class="login-btn">Log in</button>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p>© Photo, Inc. 2024. We love our users!</p>
+          </div>
+          <div class="social-media">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
